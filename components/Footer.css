@@ -1,0 +1,129 @@
+.footerLogin {
+    z-index: 10;
+    margin-top: auto;
+    width: 100%;
+    min-height: 210px; 
+    background-color: #083d32;
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+  }
+  
+  .footerImg {
+    width: 100%; /* Adjusted to be responsive */
+    max-width: 400px; /* Set maximum width */
+  }
+  
+  .footerInfo {
+    color: #e8d5b8;
+    margin-top: -70px;
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .contactUsContainer {
+    color: #fff6e9;
+    margin-right: 10px;
+    margin-top: 0px;
+    font-size: 12px;
+  }
+  
+  .locImg {
+    width: 10px;
+  }
+  
+  .footerLogin {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+  }
+  
+  .contactUs {
+    text-align: right;
+    align-items: flex-start;
+    color: #0d9276;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .footerImg {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .footerImgContainer {
+    align-items: center;
+  }
+  
+  .toolsContainer,
+  .contactContainer {
+    flex: 1;
+    max-width: calc(50% - 20px); /* Adjusted width and spacing */
+    margin-top: 10px;
+    padding: 0 10px; 
+  }
+  
+  .toolsContainer {
+    text-align: left;
+    margin-top: -10px;
+    margin-left: 200px;
+    margin-right: -40px; /* Align "Tools" to the left */
+  }
+  
+  .toolsContainer h2,
+  .contactContainer h2 {
+    color: #e8d5b8;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  ul li {
+    color: #ffecd1;
+  }
+  
+  .contactContainer ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  .contactContainer ul li {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .contactContainer ul li img {
+    margin-right: 10px; 
+  }
+  
+  .contactContainer ul li::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px; 
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    margin-right: 10px; 
+  }
+  
+  .contactContainer ul li:nth-child(1)::before {
+    background-image: url("../assets/loc.png"); 
+  }
+  
+  .contactContainer ul li:nth-child(2)::before {
+    background-image: url("../assets/mail.png"); 
+  }
+  
+  .contactContainer ul li:nth-child(3)::before {
+    background-image: url("../assets/phone.png"); 
+  }
+  
